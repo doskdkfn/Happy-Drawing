@@ -24,11 +24,11 @@ body {
 
 /******************** header ********************/
 #all-size {
-    width: 1400px;
+    width: 1190px;
     margin: 0 auto;
 }
 header {
-    width: 1400px;
+    width: 1190px;
     /*background: darkgoldenrod;*/
 }
 
@@ -48,7 +48,6 @@ header {
 
 #login > a {
     padding: 5px 5px;
-    margin-right: 30px;
     font-size: 13px;
     color: #000;
 }
@@ -94,14 +93,34 @@ header {
 #news > h2 {
     border-bottom: solid 5px #618EBE;
     width: 150px;
-    padding-top: 10px;
-    margin-left: 5px;
+    padding: 5px 0;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.lists {
+    display: flex;
 }
 
 .list {
     display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
 }
 
 .list > li {
-    padding-top: 5px;
+    padding-top: 10px;
+}
+
+.list2 {
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.list2 > li {
+    padding-top: 10px;
+    padding-left: 15px;
 }
