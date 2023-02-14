@@ -305,11 +305,39 @@ header {
    margin-top: 30px;
 }
 
-.slide {
+/* .slide {
     list-style: none;
     width: 725px;
     height: 250px;
     background: #000;
+    position: relative;
+} */
+
+/* .slide > li {
+    position: absolute;
+    display: none;
+}
+
+.slide > li:first-child {
+    display: block;
+} */
+
+#slide {
+    list-style: none;
+    width: 725px;
+    height: 250px;
+    background: #000;
+    position: relative;
+    /* display: flex; */
+}
+
+#slide > a {
+    position: absolute;
+    display: none;
+}
+
+#slide > a:first-child {
+    display: block;
 }
 
 /*********************** video *************************/
