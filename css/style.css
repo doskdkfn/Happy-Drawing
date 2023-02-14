@@ -307,7 +307,7 @@ header {
 
 .slide {
     list-style: none;
-    width: 860px;
+    width: 725px;
     height: 250px;
     background: #000;
 }
@@ -319,6 +319,6 @@ header {
 }
 
 .video > video {
-    width: 310px;
+    /* width: 310px; */
     height: 250px;
 }
