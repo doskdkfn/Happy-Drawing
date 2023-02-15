@@ -326,7 +326,7 @@ header {
     list-style: none;
     width: 725px;
     height: 250px;
-    background: #000;
+    background: #00000017;
     position: relative;
     /* display: flex; */
 }
