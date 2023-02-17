@@ -275,7 +275,7 @@ header {
     padding-left: 15px;
 }
 
-/*********************** sns-login ******************/
+/*********************** sns-login **************************/
 
 .sns-login {
     display: flex;
@@ -298,7 +298,7 @@ header {
     font-weight: bold;
 }
 
-/*********************** slide-box *************************/
+/***************************** slide-box *********************************/
 
 #slide-box {
    display: flex;
@@ -340,7 +340,7 @@ header {
     display: block;
 }
 
-/*********************** video *************************/
+/************************************ video ***************************************/
 
 .video  {
     margin-left: 20px;
@@ -351,7 +351,7 @@ header {
     height: 250px;
 }
 
-/*********************** photo *************************/
+/*********************************** photo ***************************************/
 
 #photo-box {
     width: 1190px;
@@ -361,10 +361,13 @@ header {
 }
 
 #photo-box > h2 {
+    width: 190px;
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding-top: 30px;
+    margin-left: 500px;
+    border-bottom: solid 5px #618EBE;
 }
 
 .photo-box {
@@ -373,6 +376,8 @@ header {
     justify-content: center;
     align-items: flex-end;
 }
+
+/********************** photo1 *************************/
 
 .photo {
     display: flex;
@@ -399,5 +404,35 @@ header {
 }
 
 .photo > li:nth-child(2):hover {
+    transform: rotate(-15deg);
+}
+
+/********************** photo2 *************************/
+
+.photo2 {
+    display: flex;
+}
+
+.photo2 > li {
+    list-style: none;
+    width: 213px;
+    height: 225px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo2 > li > a > img {
+    width: 180px;
+    height: 150px;
+    background: #000;
+    margin-top: 12px;
+}
+
+.photo2 > li:hover {
+    transform: rotate(15deg);
+}
+
+.photo2 > li:nth-child(1):hover {
     transform: rotate(-15deg);
 }
