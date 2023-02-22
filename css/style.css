@@ -460,3 +460,56 @@ header {
 .photo2 > li:nth-child(1):hover {
     transform: rotate(-15deg);
 }
+
+/*********************************** photo-back ***************************************/
+
+#photo-back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 2;
+    display: none;
+}
+
+/*************** photo-close ***************/
+
+.photo-close {
+    width: 1250px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: none;
+}
+
+/*************** xmark ***************/
+
+.xmark {
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 3;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*************** photo-big ***************/
+
+#big {
+    width: 1000px;
+    margin: 0 auto;
+    display: none;
+}
+
+#big > img {
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    top: 200px;
+    z-index: 3;
+}
