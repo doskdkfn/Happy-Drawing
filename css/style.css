@@ -399,6 +399,18 @@ header {
     margin-top: 12px;
 }
 
+.photo > li > a > p {
+    width: 150px;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.photo-t {
+    font-size: 15px;
+}
+
 .photo > li:hover {
     transform: rotate(15deg);
 }
@@ -427,6 +439,18 @@ header {
     height: 150px;
     background: #000;
     margin-top: 12px;
+}
+
+.photo2 > li > a > p {
+    width: 150px;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.photo2-t {
+    font-size: 15px;
 }
 
 .photo2 > li:hover {
