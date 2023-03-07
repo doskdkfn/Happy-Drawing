@@ -522,3 +522,58 @@ header {
     background: #618EBE;
     margin-top: 70px;
 }
+
+#footer-flex-menu {
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/******************** footer-menu (left) *********************/
+
+/*********** left-top ***********/
+
+.f-left-menu {
+    list-style: none;
+}
+
+.left-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-top > li {
+    font-size: 18px;
+    display: block;
+    padding-right: 50px;
+    margin-top: 45px;
+}
+
+/*********** left-middle ***********/
+
+.left-middle {
+    margin-top: 50px;
+}
+
+.copy > li {
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+/******************** footer-menu (right) *********************/
+
+.f-right-menu {
+    width: 658px;
+}
+
+.input-box {
+    text-align: right;
+}
+
+select {
+    padding: 5px;
+}
+
+select > option {
+    color: none;
+}
