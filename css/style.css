@@ -189,7 +189,7 @@ header {
     list-style: none;
 }
 
-.sns1 > li > a > p, .sns2 > li > a > p {
+/* .sns1 > li > a > p, .sns2 > li > a > p {
    text-align: center;
    font-weight: bold;
 }
@@ -210,7 +210,7 @@ header {
 
 .second {
     border-bottom: solid 2px #797e83;
-}
+} */
 
 /******************** login2 ********************/
 
@@ -568,12 +568,29 @@ header {
 
 .input-box {
     text-align: right;
+    margin-top: 43px;
 }
 
 select {
-    padding: 5px;
+    padding: 5px 20px 5px 10px;
+    outline: none;
 }
 
-select > option {
-    color: none;
+.f-right-sns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 175px;
+    margin-top: 5px;
 }
+
+.f-right-sns > li {
+    list-style: none;
+    display: block;
+    padding: 0 0 5px 20px;
+}
+
+.f-right-sns > li > a > img {
+    width: 32px;
+}
+
