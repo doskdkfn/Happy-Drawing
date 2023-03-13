@@ -175,7 +175,7 @@ header {
 
 #social > h2 {
     border-bottom: solid 5px #618EBE;
-    width: 115px;
+    width: 70px;
     color: #000;
     padding: 5px 0;
     padding-top: 15px;
@@ -187,6 +187,22 @@ header {
     margin-top: 15px;
     color: #000;
     list-style: none;
+}
+
+#main-faq {
+    margin-top: 15px;
+    color: #000;
+    list-style: none;
+    margin-left: 19px;
+}
+
+#main-faq > li {
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
+.faq-b {
+    font-weight: bold;
 }
 
 /* .sns1 > li > a > p, .sns2 > li > a > p {
